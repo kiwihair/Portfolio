@@ -1,40 +1,75 @@
+@font-face {
+    font-family: "Minne Petat font";
+    src:url("Font/minne-petat-font/MinnePetat-OV40d.ttf");
+}
+* {
+    font-family: "Minne Petat font" !important;
+}
 body {
     margin: 0;
-    background: #0F0F0F;
+    background: #1E201E;
     text-align: center;
-    color: aliceblue;
+
 }
-.display-4 {
-    font-size: xx-large;
-    color: #008170;
+.jumbotron-headline {
+    height:800px;
+    padding:10em 0 0 0;
+
 }
+.display-1 {
+    font-family: "Minne Petat font";
+    color: #ECDFCC;
+}
+
+.lead {
+    color: #697565;
+    box-shadow: 0px 0px 40px 11px #ECDFCC;
+}
+
+.lead-2 {
+    color: #ECDFCC;
+    text-align: left;
+    padding-left: 50%;
+    padding-top: 90px;
+    padding-right: 15%;
+}
+
 .projectImg {
     width:100%;
-    height: 40vw;
+    height: 20%;
     object-fit:cover;
 }
 
-.card {
 
-}
 .cardstyle {
-    max-width: 66.6%;
-    border: 0;
-    margin-left: 10%;
+    max-width: 55%;
+    border: 15px;
+    /*margin-left: 40%;
+    margin-bottom: 10%;*/
     box-shadow: none;
     transition: box-shadow 2s;
 }
 .cardstyle:hover {
-    -webkit-box-shadow: 0px 0px 21px 11px #005B41;
-    box-shadow: 0px 0px 21px 11px #005B41;
+    -webkit-box-shadow: 0px 0px 21px 11px #ECDFCC;
+    box-shadow: 0px 0px 21px 11px #697565;
+}
+
+.cardstyle2 {
+    max-width: 50%;
+    border: 15px;
+    margin-left: 30%;
+    margin-bottom: 10%;
+    box-shadow: none;
+    transition: box-shadow 2s;
 }
 
 .card-title {
-    font-family: "American Typewriter" monospace ;
-    color: #008170;
+    --bs-bg-opacity: 1;
+    background-color: rgb(105 117 101 / 50%); !important;
+    color: #ECDFCC;
 }
 .card-text {
+
     text-align: start;
-    font-family: "American Typewriter" monospace ;
-    color: #008170;
+    color: #ECDFCC;
 }
